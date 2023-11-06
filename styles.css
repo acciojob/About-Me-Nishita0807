@@ -1,1 +1,95 @@
+*{
+	padding:0px;
+	margin:0px;
+}
 
+.personal{
+	display:flex;
+	gap:10px;
+	
+}
+.part-2{
+	width:300px;
+}
+.part-2>div:nth-child(2){
+	width:70px;
+	height:2px;
+	background:#0d78ff;
+	margin-bottom:12px;
+}
+.sec-1{
+	display:flex;
+	align-items:flex-start;
+	justify-content:space-between;
+	gap:10px;
+}
+.image{
+	background:url("https://buffer.com/library/content/images/2023/10/free-images.jpg") ;
+	width:100px;
+	height:100px;
+	 background-size: cover;
+  background-position: center;
+}
+.name{
+	width:210px;
+	height:auto;
+	
+	
+}
+.name>div{
+	padding-bottom:3px;
+}
+
+.skill{
+	margin-top:12px;
+	margin-bottom:12px;
+}
+.s-1-bar{
+	width:320px;
+	height:3px;
+	background-color:gray;
+	margin-top:6px;
+	margin-bottom:12px;
+}
+
+.s-1-bar>div{
+	width:95%;
+	height:2px;
+	background:#0d78ff;
+}
+.s-2-bar>div{
+	width:90%;
+	height:2px;
+	background:#0d78ff;
+}
+.s-3-bar>div{
+	width:99%;
+	height:2px;
+	background:#0d78ff;
+}
+
+.s-4-bar>div{
+	width:90%;
+	height:2px;
+	background:#0d78ff;
+}
+.s-1>div:first-child{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:10px;
+}
+
+.s-1-1{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:6px;
+	margin-bottom:3px;
+}
+
+.s-1-1>div{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
